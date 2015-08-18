@@ -25,5 +25,8 @@ RegionSyncModule.SyncStateDetailReport needs fixing.
 RegionSyncModule.OnLocalNewScript generates an updated property list which causes
 	the inventory to be updated. This is not being handled properly by
 	SyncMsgnewScript.
+The build  section to create the .dll files will fail due  the  new  8.1.1 codes and i assume also Bulletsim,
+This needs to work in order to test DSG as at this  moment seems only ODE is working, this project is worth to proceed
+
 
 What is the ending UUID on detail log messages? It seems to be always zero UUID.
